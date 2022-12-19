@@ -24,7 +24,6 @@ img {
 }
 
 #title {
-    position: relative;
     text-align: center;
     padding: 0.8rem 0;
     font-size: 3rem;
@@ -46,20 +45,23 @@ img {
     border-radius: 2px;
 }
 
+
+
 .questions {
     margin: 3rem auto;
-    width: 90vw;
-    padding: 2rem;
+    width: 95vw;
+    padding: .5rem;
     color: black;
     background: rgba(220, 230, 250, 0.77);
     cursor: default;
+    border: 1px solid black;
     border-radius: 1rem;
 }
 
 .questions #main {
     color: rgb(71, 30, 30);
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 5px;
     background: rgba(220, 230, 250, 0.77);
 }
 
@@ -75,7 +77,7 @@ img {
 
 #desc {
     font-size: larger;
-    padding: 20px;
+    padding: 5px;
 }
 
 #question {
@@ -84,7 +86,7 @@ img {
     color: brown;
     margin-top: 15px;
     border: 1px solid rgb(52, 50, 50);
-    padding: 20px;
+    padding: 5px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -161,6 +163,7 @@ button:active {
     padding: 2rem;
     text-align: center;
     margin: auto;
+        border: 1px solid black;
     position: relative;
     top: 5rem;
     display: none;
@@ -247,6 +250,7 @@ button:active {
         top: 13.5%;
         right: 0%;
         width: 98%;
+        margin-bottom:30px;
         height: 100px;
         display: none;
         border: 0px solid rgb(23, 8, 59);
@@ -280,6 +284,9 @@ button:active {
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
     }
+    #scoreboard .saveBtn {
+    margin-top: 40px;
+}
 }
 
 
