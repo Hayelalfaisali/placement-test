@@ -1,7 +1,7 @@
        var btn = document.getElementById("btn");
        btn.onclick = function() {
            var password = prompt("Enter the password");
-           if (password == "12345") {
+           if (password == "Hanan") {
                parent.location = 'quiz.html';
            } else {
                var msg = document.getElementById("msg");
