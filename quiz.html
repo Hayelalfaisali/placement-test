@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Test</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+    <!-- <img src="logo.png" alt="img" id="img" class="img"> -->
+    <h1 id="title" style="background-color: #004696;">Placement Test </h1>
+    <button id="close">إغلاق</button>
+
+    <div class="count">
+        <div id="timer"></div>
+    </div>
+    <iframe src="demo_iframe.htm" class="iframe" name="iframe_a" title="Iframe Example"></iframe>
+    <!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <p id="main"></p>
+            <p id="desc"></p>
+            <p>
+                <a href="audios.html" target="iframe_a" id="song"></a>
+            </p>
+            <h2 id="question"></h2>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+            </ol>
+            <h4 id="stat"></h4>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="previous">Previous</button>
+
+            <button type="button" class="next">Next</button>
+        </div>
+    </div>
+    <!-- scoreboard section -->
+    <div id="scoreboard">
+        <img src="images/logo.png" alt="">
+        <h2 id="score-title">You Have Done</h2>
+        <h2 id="score" hidden></h2>
+        <h2 id="level" hidden>hi</h2>
+        <form action="" id="myForm">
+            <input id="number" type="numric" hidden value="779288403" placeholder="phone 966506666666">
+            <input id="name" type="text" placeholder="ادخل اسمك الكامل هنا">
+            <input id="msg" type="text" placeholder="type msg" hidden>
+            <button onclick="send_handle()" class="saveBtn">send</button>
+        </form>
+        <p id="msg1" style="direction: rtl;"></p>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        <!-- <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button> -->
+    </div>
+    <!-- answers section -->
+    <div id="answerBank">
+        <h2>Answers :</h2>
+        <ol type="1" id="answers">
+
+        </ol>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+    </div>
+
+    <!-- javascript file source -->
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
