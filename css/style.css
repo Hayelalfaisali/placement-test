@@ -158,14 +158,20 @@ body {
         -o-transform: translate(-50%, -50%);
     }
     #notes {
-        margin-top: 100%;
+        direction: rtl;
         color: #fff;
-        margin-bottom: 120%;
+        margin: 20%;
+        padding: 20px;
+        margin-top: 30%;
+        background-color: #33908b;
+        margin-bottom: 10%;
     }
     #notes img {
+        margin: 10px;
         display: flex;
         width: 200px;
         height: 200px;
-        margin-right: 15%;
+        margin-right: 30%;
+        margin-bottom: 20px;
     }
 }
