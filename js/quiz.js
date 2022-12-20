@@ -800,9 +800,9 @@ function send_handle() {
         // assign the name via the prompt() interface, and
         // declare both variables (rather than accidentally
         // creating globals):
-        let name = prompt("Enter The Second Password"); // name won't be null, but it may be falsey, so here
+        let name = prompt("Enter The Password:"); // name won't be null, but it may be falsey, so here
         // we check if the name is falsey:
-        if (name == "Hanan1") {
+        if (name == "Hanan") {
             parent.location = 'quiz.html';
 
         } else {
