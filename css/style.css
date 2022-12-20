@@ -157,19 +157,26 @@ body {
         -ms-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
     }
- #notes {
+  #notes {
         direction: rtl;
-        margin-top: 80%;
+        position: absolute;
+        background-color: #33908b;
+        width: 80%;
+        top: 40%;
+        left: 50%;
+        margin-top: 50px;
+        margin-bottom: 110px;
+        margin-top: 100%;
+        transform: translate(-50%, -50%);
         color: #fff;
         background-color: #33908b;
         margin-bottom: 120%;
     }
-
-    #notes img {
+    #notes video {
         margin: 10px;
         display: flex;
         width: 200px;
         height: 200px;
-        margin-right: 30%;
+        margin-right: 15%;
     }
 }
