@@ -801,7 +801,7 @@ function send_handle() {
         // declare both variables (rather than accidentally
         // creating globals):
         // we check if the name is falsey:
-            parent.location = 'quiz.html/#quiz-container';
+            parent.location = 'quiz.html';
 
      
         // I wouldn't recommend alert, but I left this unchanged:
